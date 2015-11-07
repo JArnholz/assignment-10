@@ -1,0 +1,56 @@
+* {
+    -webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+			box-sizing: border-box;
+}
+
+body {
+	font-family: Roboto, Arial, sans-serif;
+	margin: 5px 40px 30px;
+	background: #243b81;
+	color: #fff;
+	
+}
+
+h1 {
+	font-family: 'Patua One', serif;
+	color: #ef4923;
+	text-align: center;
+	font-size: 4em;
+}
+
+.container {
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+
+.selectionArea {
+	font-size: 1.5em;
+	margin-top: 50px;
+}
+
+.prompt {
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+footer {
+	
+	background: #ef4923;
+	font-family: 'Patua One', serif;
+	color: #fff;
+	text-align: center;
+	font-size: 1.5em;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	
+}
+
+footer a:link, footer a:visited, footer a:active {
+    color: #243b81;
+}
+
+
+
+
+
