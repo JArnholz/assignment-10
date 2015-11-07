@@ -1,3 +1,5 @@
+// Code based off of this fiddle: http://jsfiddle.net/macloo/x2t7x019/ 
+
 document.getElementById("seePic").onclick = change;
 
 function change() {
