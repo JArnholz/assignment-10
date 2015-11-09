@@ -23,22 +23,15 @@ function change() {
 	var image = document.getElementById("stadiumImage");
 	image.setAttribute( "src", newSource );
 	
-/* TESTING	
+/* TESTING
 	
-	
-	var decriptionPara = document.getElementsByClassName("description");
-	
-	descriptionPara.innerHTML = "<p> Swamp </p>";
-	
-	
-	 var para = document.createElement("p");
-		var swampPara = document.createTextNode("Swamp");
-		var odomePara = document.createTextNode("O'Dome");
-		
-	para.appendChild(swampPara);
-	body.insertBefore(para, img);
-	
+	var stadiumArray = ["The Swamp", "The O'Dome", "The Mac"];
+				for ( var i in stadiumArray ) {       
+					if ( radioButtons[i].checked ) {
+						var para = $(stadiumArray[i]);
+						$("img").after(para);
+					}
+				}
+			
 	*/
-	 
-	
 }
